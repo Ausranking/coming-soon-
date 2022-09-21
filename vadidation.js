@@ -8,7 +8,7 @@ validateForm =()=>{
   let x = document.forms["userform"]
   ["email"].value;
   if(x === ""){
-    alert("Please fill email")     
+    alert("Provide Email Address")     
     return false
   }
 }
