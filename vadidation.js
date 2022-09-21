@@ -4,9 +4,12 @@ const validEmails = {
   email2: "austranking@gmaii.com",
 };
 
-const d = new Date();
-const button = document.getElementById("date")
-button.addEventListener("click", ()=>{
-    alert(d)
+validateForm =()=>{
+  let x = document.forms["userform"]
+  ["email"].value;
+  if(x === ""){
+    alert("Please fill email")     
+    return false
+  }
 }
-)
+

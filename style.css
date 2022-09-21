@@ -50,7 +50,7 @@ p {
   font-size: 14px;
   color: hsl(0, 31%, 82%);
 }
-input {
+#email {
   border: 1px solid green;
   height: 40px;
   border-radius: 20px;
